@@ -1,0 +1,5 @@
+This program is asking us to implement linked list functionality. A linked list uses a node that holds a value and a pointer to the next node in the list. Linked lists usually include a head and a tail that point to the fist node and last node in the list. 
+
+The first option for this assignment is a mini compiler. It is asking us to make sure that all the brackets and curly braces are in the correct order. If they are not, we are to reject the program and ouput a message to not accept it. If the brackets and curly braces are in the correct order, then we are to accept it.
+
+The second option is to write a program that tests two different versions of a queu for a restaurant. We will test the two different versions of the queu against each other to see which one is faster.

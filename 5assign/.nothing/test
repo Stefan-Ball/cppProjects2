@@ -1,0 +1,19 @@
+#include <stdio.h> //printf, scanf
+#include <stdlib.h> //malloc, free, NULL
+
+int main() {
+
+   int *pointer;
+   int *size;
+   size = (int *) malloc (1);
+
+   size[0] = 4;
+
+   printf("%d\n", size[0]);
+
+   pointer = &(size[0]);
+
+   free(pointer);
+
+   return 0;
+}
